@@ -9,7 +9,8 @@ class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-
+        
+        // checking its is possible to create a trialangle
         if (a + b > c && a + c > b && b + c > a) {
             System.out.println("YES");
 
